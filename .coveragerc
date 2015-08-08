@@ -5,7 +5,7 @@ omit =
     borg/__init__.py
     borg/__main__.py
     borg/_version.py
-
+data_file = /tmp/.coverage
 [report]
 exclude_lines =
     pragma: no cover
