@@ -1,11 +1,12 @@
 [run]
 branch = True
+parallel = true
+data_file = /tmp/coverage-data
 source = borg
 omit =
     borg/__init__.py
     borg/__main__.py
     borg/_version.py
-data_file = /tmp/.coverage
 [report]
 exclude_lines =
     pragma: no cover
