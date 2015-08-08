@@ -14,7 +14,6 @@ if [[ "$(uname -s)" == "Darwin" ]]; then
 fi
 
 source ~/.venv/bin/activate
-echo "TRAVIS_OS_NAME,TOXENV = $TRAVIS_OS_NAME,$TOXENV"
 
 if [[ "$(uname -s)" == "Darwin" ]]; then
     # no fakeroot on OS X
